@@ -28,7 +28,7 @@ public class Employee {
         double oldsalary = sc.nextDouble();
         double newsalary = sc.nextDouble();
 
-        Day3.Singleinheritance.Employee e = new Day3.Singleinheritance.Employee();
+        Day3.Employee e = new Day3.Employee();
         e.setSalary(newsalary);
         System.out.println("Employee Name "+ empname + " Salary " + e.getSalary());
     }

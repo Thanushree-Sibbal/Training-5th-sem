@@ -12,7 +12,7 @@ class Employee {
     }
 
 }
-class Emplevel extends Employee1 {
+class Emplevel extends Employee {
 
     Emplevel(int eId, float salary){
         super(eId, salary);
